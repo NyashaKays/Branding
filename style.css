@@ -22,14 +22,23 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: var(--navBG);
 }
 
 nav ul{
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+}
+
+nav ul li a{
+    display: block;
+    font-size: 1.1em;
+    font-weight: 600;
     color: var(--white);
+    text-decoration: none;
+    margin: 15px;
 }
